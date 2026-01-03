@@ -103,7 +103,7 @@ struct ContentView: View {
             perspective: 0.25
         )
         .onTapGesture {
-            withAnimation(.bouncy(duration: 5)) {
+            withAnimation(.bouncy(duration: 0.3)) {
                 tapped.toggle()
                 
                 if tapped {
